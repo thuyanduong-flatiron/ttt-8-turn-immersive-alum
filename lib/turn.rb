@@ -19,5 +19,6 @@ def valid_move?(board, index)
   valid
 end
 
-def move()
+def move(board, index, char = "X")
+  board[index] = char
 end
