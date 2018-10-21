@@ -19,3 +19,5 @@ def valid_move?(board, index)
   valid
 end
 
+def move()
+end
