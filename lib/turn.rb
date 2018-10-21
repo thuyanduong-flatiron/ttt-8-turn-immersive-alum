@@ -12,10 +12,10 @@ end
 
 def valid_move?(board, index)
   if board[index] == " " 
-    taken = false 
+    valid = true 
   else 
-    taken = true 
+    valid = false 
   end
-  !taken
+  valid
 end
 
