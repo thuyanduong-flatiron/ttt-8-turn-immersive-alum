@@ -12,7 +12,7 @@ end
 
 def valid_move?(board, index)
   valid = nil
-  if board[index] == " " 
+  if board[index] == " " || board[index] == '' || board[index] == nil
     valid = true 
   else 
     valid = false 
